@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication6", "WebApplication6\WebApplication6.csproj", "{1C06AA0B-4030-4972-97B0-1C05819F769D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeManagement.IntergrationTest", "TimeManagement.IntergrationTest\TimeManagement.IntergrationTest.csproj", "{89EAEBD4-BE53-4D74-A47A-9546090581B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C06AA0B-4030-4972-97B0-1C05819F769D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C06AA0B-4030-4972-97B0-1C05819F769D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C06AA0B-4030-4972-97B0-1C05819F769D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C06AA0B-4030-4972-97B0-1C05819F769D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89EAEBD4-BE53-4D74-A47A-9546090581B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89EAEBD4-BE53-4D74-A47A-9546090581B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89EAEBD4-BE53-4D74-A47A-9546090581B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89EAEBD4-BE53-4D74-A47A-9546090581B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2916A140-BD05-4708-ACD8-DACDBCF2062B}
+	EndGlobalSection
+EndGlobal
