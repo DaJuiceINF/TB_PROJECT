@@ -1,0 +1,43 @@
+<ion-header>
+        <ion-toolbar>
+            <ion-row>
+                <ion-title>Side Effects</ion-title>
+                <ion-button ion-button icon-start href="/home">
+                  <ion-icon name="home">
+                    start
+      
+                  </ion-icon>
+      
+                </ion-button>
+                
+                <ion-button ion-button icon-end href="/login">
+                  <ion-icon name="exit">
+                    end
+      
+                  </ion-icon>
+      
+                </ion-button>
+            </ion-row>
+        </ion-toolbar>
+      </ion-header>
+      
+      <ion-content>
+        <ion-card>
+          <body>
+              Fever for 3 or more days.
+              Pain in the lower abdomen.
+              Itchiness or a rash.
+              Nausea, vomiting, or no appetite.
+              Yellowish skin or eyes.
+              Dark or brown urine.
+              Tingling, burning, or numbness of the hands and feet.
+              Fatigue.
+              Easy bruising or bleeding
+              Bloody Nose
+              Dizziness
+          </body>
+
+
+        </ion-card>
+      </ion-content>
+      
