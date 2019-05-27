@@ -1,14 +1,9 @@
-# TB_PROJECT
-GPD_DEL2
-//Side effects of branch//
-Fever for 3 days
-pain in the lower abdomene
-Itchiness or a rash
-Nausea vommiting or no appetite
-Yellowish skin or eyes
-Dark or brown urine
-Tringling,burning or numbness of the hands and feets
-fatigue
-easy brusing or bleeding
-bloody nose
-dizziness
+# INF354_TBCureOsis
+INF354 INFORMATORIUM
+This document serves to explain and document the creation of the application Cure Oasis
+Group Members(6):
+K. Bogatsu  
+M.Towani
+W.Tandwe
+P.
+M.Mosotho
