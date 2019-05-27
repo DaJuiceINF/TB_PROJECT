@@ -1,0 +1,26 @@
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>medicines</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding> 
+    <ion-button href = "/home">Home</ion-button>
+<table>
+
+    <tr *ngFor = "let item of movieService.list">
+      <td *ngIf = "item.medicineDescription == 1"  > ActiveTB </td>
+    <td *ngIf = "item.medicineDescription == 2"  > MiliaryTB </td>
+    <td *ngIf = "item.medicineDescription == 3" > LatentTB </td>
+
+    <td >{{item.medicineName}}</td>
+    
+    <td >{{item.estimatePrice}}</td>
+    <!-- <td><button (click)="onDelete(emp.medicineID)" class="btn btn-sm btn-outline-danger">X</button></td> -->
+  </tr>
+</table>
+
+</ion-content>
+ 

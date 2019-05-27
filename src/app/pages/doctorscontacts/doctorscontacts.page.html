@@ -1,0 +1,22 @@
+
+
+<ion-header>
+    <ion-toolbar>
+      <ion-title>Doctors</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding> 
+      <ion-button href = "/home">Home</ion-button>
+  <table>
+  
+      <tr *ngFor = "let item of doctorsService.doctors">
+          <td >{{item.UserName}}</td>
+          <td >{{item.Email}}</td>
+          <td >{{item.ContactNo}}</td>
+          <td >{{item.Address}}</td>
+      <!-- <td><button (click)="onDelete(emp.medicineID)" class="btn btn-sm btn-outline-danger">X</button></td> -->
+    </tr>
+  </table>
+  </ion-content>
+   

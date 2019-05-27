@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>register</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+    <ion-button href = "/home">Home</ion-button>
+  <form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+    <input type="hidden" name="patientID" #patientID="ngModel" [(ngModel)]="patientService.formData.patientID"> 
+      <div class="form-group"> 
+        <label>Full Names</label>
+        <input name="patientFullName" #patientFullName="ngModel" [(ngModel)]="patientService.formData.patientFullName" class="form-control" required>
+        <div class="validation-error" *ngIf="patientFullName.invalid && patientFullName.touched">The field is empty,enter some value!</div>
+      </div>
+
+      <div class="form-group"> 
+        <label>Contact Number</label>
+        <input name="contactNumber" #contactNumber="ngModel" [(ngModel)]="patientService.formData.contactNumber" class="form-control" required>
+        <div class="validation-error" *ngIf="contactNumber.invalid && contactNumber.touched">The field is empty,enter some value!</div>
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+        <select name="patientGenderID" #patientGenderID="ngModel" [(ngModel)]="patientService.formData.patientGenderID" >
+         <option *ngFor = "let option of options" [value]="option.id">{{option.text}}</option>
+        </select>
+        <div class="validation-error" *ngIf="patientGenderID.invalid && typeOfTB.touched">The field is empty,enter some value!</div>
+      </div>
+    
+
+      <div class="form-group"> 
+        <label>Adress</label>
+        <input name="patientAddress" #patientAddress="ngModel" [(ngModel)]="patientService.formData.patientAddress" class="form-control" required>
+        <div class="validation-error" *ngIf="patientAddress.invalid && patientAddress.touched">The field is empty,enter some value!</div>
+      </div>
+    
+      <div class="form-group"> 
+        <label>Nationality</label>
+        <input name="patientNationality" #patientNationality="ngModel" [(ngModel)]="patientService.formData.patientNationality" class="form-control" required>
+        <div class="validation-error" *ngIf="patientNationality.invalid && patientNationality.touched">The field is empty,enter some value!</div>
+      </div>
+
+      <div class="form-group"> 
+        <label>TB-Status</label>
+        <input name="patientStatus" #patientStatus="ngModel" [(ngModel)]="patientService.formData.patientStatus" class="form-control" required>
+        <div class="validation-error" *ngIf="patientStatus.invalid && patientStatus.touched">The field is empty,enter some value!</div>
+      </div>
+        
+      
+    
+      <div class="form-group">
+        <ion-button type="submit" [disabled]="form.invalid"  class="btn btn-lg btn-block">SAVE</ion-button>
+      </div>
+      <!-- <ion-button href = "/symptoms">Symptoms</ion-button> -->
+    </form>
+</ion-content>
